@@ -14,9 +14,9 @@ A finance Application using React Native, styled-components
 
 ## ScreenShots
 
-### Main
+### Login
 
-![Main](assets/screen_shots/login_page.png)
+![Login](assets/screen_shots/login_page.png)
 
 This is the app's main screen.
 
