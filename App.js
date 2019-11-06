@@ -1,11 +1,11 @@
 import React from 'react';
 import { StatusBar } from 'react-native';
-import Main from './src/pages/Main';
+import Login from './src/pages/Login';
 
 const App = () => (
    <>
       <StatusBar barStyle="light-content" backgroundColor="#fff" />
-      <Main></Main>
+      <Login></Login>
    </>
 );
 

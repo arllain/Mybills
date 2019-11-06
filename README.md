@@ -2,11 +2,11 @@
 
 A finance Application using React Native, styled-components
 
-## Índice
+## Index
 
 -  [ScreenShots](#screenshots)
 
-   -  [Main](#main)
+   -  [Login](#login)
 
 -  [Built With](#built-with)
 
@@ -16,7 +16,7 @@ A finance Application using React Native, styled-components
 
 ### Main
 
-![Main](assets/screen_shots/main_screen.png)
+![Main](assets/screen_shots/login_page.png)
 
 This is the app's main screen.
 

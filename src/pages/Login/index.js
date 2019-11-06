@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 import { Container } from './styles';
 import CustomButton from '../../components/CustomButton';
 
-export default function Main() {
+export default function Login() {
    return (
       <Container>
          <Header />
@@ -32,11 +32,6 @@ export default function Main() {
             background="#FFFFFF"
             fontWeight="bold"
             fontSize="16"
-            onPress={() =>
-               alert(
-                  'Ao encerrar a sessão, todos os seus dados não sincronizados serão excluídos de seu dispositivo. Deseja realmente encerrar sua sessão neste dispositivo?'
-               )
-            }
          ></CustomButton>
       </Container>
    );
