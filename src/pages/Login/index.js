@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 import { Container } from './styles';
 import CustomButton from '../../components/CustomButton';
 
-export default function Login() {
+export default function Login(props) {
    return (
       <Container>
          <Header />
@@ -19,10 +19,11 @@ export default function Login() {
             background="#3734eb"
             fontWeight="bold"
             fontSize="16"
+            onPress={() => props.navigation.navigate('Home')}
          ></CustomButton>
          <CustomButton
             top="320px"
-            width="150"
+            width="170"
             height="40"
             padding="10"
             radius="20"

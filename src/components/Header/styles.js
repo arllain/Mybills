@@ -9,6 +9,7 @@ export const Top = styled.View`
    align-items: center;
    top: 70px;
 `;
+
 export const Logo = styled.Image``;
 
 export const Title = styled.Text`
