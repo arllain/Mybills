@@ -2,11 +2,11 @@
 
 A finance Application using React Native, styled-components
 
-## Índice
+## Index
 
 -  [ScreenShots](#screenshots)
 
-   -  [Main](#main)
+   -  [Login](#login)
 
 -  [Built With](#built-with)
 
@@ -14,9 +14,9 @@ A finance Application using React Native, styled-components
 
 ## ScreenShots
 
-### Main
+### Login
 
-![Main](assets/screen_shots/main_screen.png)
+![Login](assets/screen_shots/login_page.png)
 
 This is the app's main screen.
 
@@ -25,3 +25,13 @@ This is the app's main screen.
 ### Libraries
 
 -  [styled-components](https://github.com/styled-components/styled-components)
+-  [React Navigation](https://github.com/react-navigation/react-navigation)
+-  [React Navigation Stack](https://github.com/react-navigation/stack)
+-  [React Native Gesture Handler](https://github.com/kmagiera/react-native-gesture-handler)
+-  [React Native Reanimated](https://github.com/kmagiera/react-native-reanimated)
+-  [React Native Screens](https://github.com/kmagiera/react-native-screens)
+-  [Vector Icons](https://github.com/oblador/react-native-vector-icons)
+-  [React Native Paper](https://github.com/callstack/react-native-paper)
+-  [React Navigation Drawer](https://github.com/react-navigation/drawer)
+-  [React Navigation Material Bottom Tabs](https://github.com/react-navigation/material-bottom-tabs)
+-  [React Navigation Tabs](https://github.com/react-navigation/tabs)

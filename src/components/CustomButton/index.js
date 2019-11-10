@@ -11,7 +11,14 @@ const CustomButton = props => (
       background={props.background}
       onPress={props.onPress}
    >
-      <TextButton color={props.color}>{props.text}</TextButton>
+      <TextButton
+         color={props.color}
+         fontWeight={props.fontWeight}
+         fontSize={props.fontSize}
+         textAlign={props.textAlign}
+      >
+         {props.text}
+      </TextButton>
    </Container>
 );
 
