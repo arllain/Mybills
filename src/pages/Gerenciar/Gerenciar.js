@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Text, View, StyleSheet, FlatList } from 'react-native';
+import CreditcardIcon from 'react-native-vector-icons/AntDesign';
 import { Container, Content, Card, CardContent } from './styles';
 
 export default class Gerenciar extends React.Component {
@@ -26,7 +27,14 @@ export default class Gerenciar extends React.Component {
                            { key: 'Cards da Tela Inicial' }
                         ]}
                         renderItem={({ item }) => (
-                           <Text style={styles.item}>{item.key}</Text>
+                           <View style={{ flex: 1, flexDirection: 'row' }}>
+                              <CreditcardIcon
+                                 style={styles.icon}
+                                 name="creditcard"
+                                 size={25}
+                              />
+                              <Text style={styles.item}>{item.key}</Text>
+                           </View>
                         )}
                      />
                   </View>
@@ -43,9 +51,14 @@ const styles = StyleSheet.create({
       paddingTop: 22
    },
    item: {
-      padding: 10,
-      fontSize: 18,
-      height: 44
+      paddingTop: 15
+      //fontSize: 15
+      //height: 44
+   },
+   icon: {
+      padding: 10
+      //fontSize: 15
+      //height: 44
    }
 });
 
